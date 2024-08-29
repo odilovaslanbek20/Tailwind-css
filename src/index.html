@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=\, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="../css/output.css" />
+    </head>
+    <body>
+        <header class="header karobka w-[90%] m-auto">
+            <nav
+                class="border-b-2 py-4 border-[#e2e3ef] flex items-center justify-between">
+                <a href="./index.html">
+                    <img class="max-sm:w-[140px]" src="../img/Group 309.png"
+                        alt />
+                </a>
+                <input type="checkbox" id="check" class="hidden" />
+                <ul class="links flex items-center justify-between gap-5">
+                    <li>
+                        <a class="text-[14px] font-medium text-title_color"
+                            href="#">
+                            Как работает</a>
+                    </li>
+                    <li>
+                        <a class="text-[14px] font-medium text-title_color"
+                            href="#">Цены</a>
+                    </li>
+                    <li>
+                        <a class="text-[14px] font-medium text-title_color"
+                            href="#">Частые вопросы</a>
+                    </li>
+                </ul>
+                <nav class="flex items-center gap-5">
+                    <button class="mr-5 max-lg:hidden">Регистрация</button>
+                    <button
+                        class="border max-lg:hidden rounded-[30px] w-[80px] h-[40px]" >
+                        Вход
+                    </button>
+                    <button class="text-[25px] lg:hidden">
+                        <i class="fa-regular fa-user"></i>
+                    </button>
+                    <label class="lg:hidden text-[25px]" for="check"><i
+                            class="fa-solid fa-bars"></i></label>
+                </nav>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div
+                    class="karobka w-[90%] m-auto flex items-center justify-between mt-10 gap-8">
+                    <div class="hero-cards-left w-[45%] ">
+                        <h1
+                            class="heding text-[#000] text-6xl font-bold">Готовая
+                            семантика за 1 минуту</h1>
+                        <p class="text1 text-xl mt-4">Сервис <span
+                                class="text-[red] text-xl">автоматического</span>
+                            сбора очищенных запросов для любой страницы
+                            сайта</p>
+                        <div class="cards flex items-center gap-5 mt-5">
+                            <button
+                                class="btn w-[35%] h-[45px] rounded-3xl bg-orange-600 text-white">Попробовать</button>
+                            <p class="text">При регистрации 500 руб., <br>
+                                хватит чтобы влюбиться</p>
+                        </div>
+                    </div>
+                    <div class="hero-cards-right">
+                        <img class="img" src="../img/Group 10.png" alt="photo">
+                    </div>
+                </div>
+            </section>
+
+            <section class="karobka about mt-16 w-[90%] m-auto">
+                <ul class="list grid grid-cols-5">
+                    <li class="item">
+                        <img class=" img" src="../img/Frame 4.png" alt="photo"
+                            width="100" height="100">
+                        <h2 class="h2 font-bold text-2xl mt-2.5 mb-3.5">Избавит
+                            <br class="block"> от рутины</h2>
+                        <p class="paragrf text-base ">Долой чистку, парсинг, <br
+                                class="block"> группировку</p>
+                    </li>
+                    <li class="item">
+                        <img class=" img" src="../img/Frame 5.png" alt="photo"
+                            width="100" height="100">
+                        <h2 class="h2 font-bold text-2xl mt-2.5 mb-3.5">Легко
+                            <br class="block"> разобраться</h2>
+                        <p class="paragrf text-base ">Всего 2 кнопки</p>
+                    </li>
+                    <li class="item">
+                        <img class=" img" src="../img/Frame 6.png" alt="photo"
+                            width="100" height="100">
+                        <h2 class="h2 font-bold text-2xl mt-2.5 mb-3.5">Больше
+                            <br class="block"> заработаешь</h2>
+                        <p class="paragrf text-base ">Высвободится много <br
+                                class="block"> времени на новых <br>
+                            клиентов</p>
+                    </li>
+                    <li class="item">
+                        <img class=" img" src="../img/Frame 7.png" alt="photo"
+                            width="100" height="100">
+                        <h2 class="h2 font-bold text-2xl mt-2.5 mb-3.5">Экономия
+                            <br class="block"> времени</h2>
+                        <p class="paragrf text-base ">Не надо обучать <br
+                                class="block"> сотрудников сбору <br> семантики
+                            и сложным <br> действиям</p>
+                    </li>
+                    <li class="item">
+                        <img class=" img" src="../img/Frame 8 (1).png"
+                            alt="ph width="100" height="100"oto">
+                        <h2
+                            class="h2 font-bold text-2xl mt-2.5 mb-3.5">Отсутствие
+                            <br class="block"> ошибок</h2>
+                        <p class="paragrf  text-base ">Человеческий фактор <br
+                                class="block"> и лень никто не отменял, <br>
+                            влияющие на полноту <br> их сбора</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="karobka m-auto w-[90%] flex items-center justify-between gap-[50px] ">
+                <div class="order">
+                    <div class="bg-slate-50 w-[100%] p-[20px] flex items-start rounded-[20px] gap-3 bott">
+                        <img
+                            class="bg-red-600 w-5 h-6 rounded-[0_12px_0_0] p-1"
+                            src="../img/shape (4).svg" alt>
+                            <span>
+                                <h2 class="text-black font-bold text-2xl hhh">Приведи друга</h2>
+                                <p class="text-black font-normal text-[16px]">Отправьте ему ссылку или промокод</p>
+                            </span>
+                    </div>
+                    <div class="bg-slate-50 w-[100%] p-[20px] flex items-start rounded-[20px] gap-3 bott">
+                        <img
+                            class="bg-red-600 w-5 h-6 rounded-[0_12px_0_0] p-1"
+                            src="../img/Vector (2).svg" alt>
+                            <span>
+                                <h2 class="text-black font-bold text-2xl hhh">Приведи друга</h2>
+                                <p class="text-black font-normal text-[16px]">Отправьте ему ссылку или промокод</p>
+                            </span>
+                    </div>
+                    <div class="bg-slate-50 w-[100%] p-[20px] flex items-start rounded-[20px] gap-3 bott">
+                        <img
+                            class="bg-red-600 w-5 h-6 rounded-[0_12px_0_0] p-1"
+                            src="../img/Union.svg" alt>
+                            <span>
+                                <h2 class="text-black font-bold text-2xl hhh">Приведи друга</h2>
+                                <p class="text-black font-normal text-[16px]">Отправьте ему ссылку или промокод</p>
+                            </span>
+
+                    </div>
+                </div>
+                <div class="">
+                    <img src="../img/Group 31.png" alt="">
+                </div>
+            </section>
+
+
+            <section class="section">
+                <div class="karobka w-[90%] m-auto">
+                    <h2 class="text-center font-bold text-5xl">Как работает
+                        сервис</h2>
+                    <p
+                        class="text-center font-normal text-[20px] mt-[15px] mb-[50px]">Процесс
+                        состоит из следующих действий</p>
+
+                    <ul class="section-list grid grid-cols-3 gap-[40px]">
+                        <li class="section-item w-[100%] m-auto">
+                            <span class="span-secrion flex gap-2">
+                                <p
+                                    class="w-7 h-7  text-white flex items-center justify-center rounded-[50%] bg-red-500">2</p>
+                                <h2
+                                    class="text-center text-[#07040C] font-bold text-2xl">Сбор
+                                    запросов конкурентов</h2>
+                            </span>
+                            <p
+                                class="text-center mt-[15px] mb-[38px] text-[#585967] text-[16px]">Берем
+                                запросы со страниц конкурентов, используя
+                                платные, обновляемые базы</p>
+                            <iframe class="vidio rounded-[20px] w-[100%] h-56"
+                                src="https://www.youtube.com/embed/Z4pCqK-V_Wo?si=K-YPMXjjnO4qWcKo"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen></iframe>
+                        </li>
+                        <li class="w-[100%] m-auto">
+                            <span class="span-secrion flex gap-2">
+                                <p
+                                    class="w-7 h-7 text-center text-white flex items-center justify-center rounded-[50%] bg-red-500">2</p>
+                                <h2
+                                    class="text-center text-[#07040C] font-bold text-2xl">Сбор
+                                    запросов конкурентов</h2>
+                            </span>
+                            <p
+                                class="text-center mt-[15px] mb-[38px] text-[#585967] text-[16px]">Берем
+                                запросы со страниц конкурентов, используя
+                                платные, обновляемые базы</p>
+                            <iframe class="vidio rounded-[20px] w-[100%] h-56"
+                                src="https://www.youtube.com/embed/Z4pCqK-V_Wo?si=K-YPMXjjnO4qWcKo"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen></iframe>
+                        </li>
+                        <li class="w-[100%] m-auto">
+                            <span class="span-secrion flex gap-2">
+                                <p
+                                    class="w-[30px] h-[30px] text-center text-white flex items-center justify-center rounded-[50%] bg-red-500">2</p>
+                                <h2
+                                    class="text-center text-[#07040C] font-bold text-2xl">Сбор
+                                    запросов конкурентов</h2>
+                            </span>
+                            <p
+                                class="text-center mt-[15px] mb-[38px] text-[#585967] text-[16px]">Берем
+                                запросы со страниц конкурентов, используя
+                                платные, обновляемые базы</p>
+                            <iframe class="vidio rounded-[20px] w-[100%] h-56"
+                                src="https://www.youtube.com/embed/Z4pCqK-V_Wo?si=K-YPMXjjnO4qWcKo"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen></iframe>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="morgin">
+                <div class="karobka w-[90%] m-auto">
+                    <div class="choco flex items-center gap-[30px]">
+                        <div
+                            class="scss w-[70%] p-[20px] mb-8 bg-slate-100 rounded-[20px]">
+                            <div class="flex items-center justify-between ddd">
+                                <div class="center font-bold">Функционал</div>
+                                <div class="center font-bold">Стоимость</div>
+                            </div>
+                            <hr class="w-[100%] mt-6 mb-5 opacity-[0.1]">
+                            <div class="flex items-center justify-between ddd">
+                                <div class="center font-bold">Сбор запросов по
+                                    конкурентам</div>
+                                <div class="center font-bold"><span
+                                        class="text-red-500 font-bold">100
+                                        руб.</span> за задачу</div>
+                            </div>
+                            <hr class="w-[100%] mt-6 mb-5 opacity-[0.1]">
+                            <div class="flex items-center justify-between ddd">
+                                <div class="center font-bold">Класстеризатор по
+                                    ТОП</div>
+                                <div class="center font-bold"><span
+                                        class="text-red-500 font-bold">0.1
+                                        руб.</span> за фразу</div>
+                            </div>
+                        </div>
+                        <div class>
+                            <div class="scss2 flex items-center">
+                                <img src="../img/Frame 6 (1).png" alt="photo">
+                                <div class>
+                                    <h2 class="up font-bold text-[#000]">Никаких
+                                        тарифов</h2>
+                                    <p
+                                        class="up font-normal text-[#000]">Пополняйте
+                                        на ту сумму, которую нужно сейчас, не
+                                        переплачивая за тариф</p>
+                                </div>
+                            </div>
+                            <div class="choco2 flex item-center w-[100%]">
+                                <img src="../img/Frame 5 (1).png" alt="photo">
+                                <div class>
+                                    <h2 class="up font-bold text-[#000]">Не
+                                        сгорает баланс</h2>
+                                    <p class="up font-normal text-[#000]">Нет
+                                        ограничений по времени</p>
+                                </div></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="karobka w-[90%] m-auto">
+                <h2 class="font-bold text-left text-5xl mb-[50px] head">Отзывы</h2>
+                <div class="swiper mySwiper mb-[50px]">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="sss flex items-start  gap-8  ">
+                                <div
+                                    class="flex items-center justify-center flex-col">
+                                    <img src="../img/Ellipse 4 (4).png" alt>
+                                    <h2
+                                        class="text-2xl text-[black]">Кирилл</h2>
+                                    <p class="text-sm"> специалист</p>
+                                </div>
+                                <div class="car w-[100%]  bg-white">
+                                    <h2
+                                        class="for text-2xl font-bold mb-4">Лучший
+                                        сервис!!!</h2>
+                                    <p
+                                        class="for text-[16px] font-normal w-[100%]">Задача
+                                        организации, в особенности же дальнейшее
+                                        развитие различных форм деятельности в
+                                        значительной степени обуславливает
+                                        создание системы обучения кадров,
+                                        соответствует насущным потребностям.
+                                        Повседневная практика показывает, что
+                                        укрепление и развитие!!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sss flex items-start  gap-8  ">
+                                <div
+                                    class="flex items-center justify-center flex-col">
+                                    <img src="../img/Ellipse 4 (4).png" alt>
+                                    <h2
+                                        class="text-2xl text-[black]">Кирилл</h2>
+                                    <p class="text-sm"> специалист</p>
+                                </div>
+                                <div class="car w-[100%]  bg-white">
+                                    <h2
+                                        class="for text-2xl font-bold mb-4">Лучший
+                                        сервис!!!</h2>
+                                    <p
+                                        class="for text-[16px] font-normal w-[100%]">Задача
+                                        организации, в особенности же дальнейшее
+                                        развитие различных форм деятельности в
+                                        значительной степени обуславливает
+                                        создание системы обучения кадров,
+                                        соответствует насущным потребностям.
+                                        Повседневная практика показывает, что
+                                        укрепление и развитие!!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sss flex items-start  gap-8  ">
+                                <div
+                                    class="flex items-center justify-center flex-col">
+                                    <img src="../img/Ellipse 4 (4).png" alt>
+                                    <h2
+                                        class="text-2xl text-[black]">Кирилл</h2>
+                                    <p class="text-sm"> специалист</p>
+                                </div>
+                                <div class="car w-[100%]  bg-white">
+                                    <h2
+                                        class="for text-2xl font-bold mb-4">Лучший
+                                        сервис!!!</h2>
+                                    <p
+                                        class="for text-[16px] font-normal w-[100%]">Задача
+                                        организации, в особенности же дальнейшее
+                                        развитие различных форм деятельности в
+                                        значительной степени обуславливает
+                                        создание системы обучения кадров,
+                                        соответствует насущным потребностям.
+                                        Повседневная практика показывает, что
+                                        укрепление и развитие!!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sss flex items-start  gap-8  ">
+                                <div
+                                    class="flex items-center justify-center flex-col">
+                                    <img src="../img/Ellipse 4 (4).png" alt>
+                                    <h2
+                                        class="text-2xl text-[black]">Кирилл</h2>
+                                    <p class="text-sm"> специалист</p>
+                                </div>
+                                <div class="car w-[100%]  bg-white">
+                                    <h2
+                                        class="for text-2xl font-bold mb-4">Лучший
+                                        сервис!!!</h2>
+                                    <p
+                                        class="for text-[16px] font-normal w-[100%]">Задача
+                                        организации, в особенности же дальнейшее
+                                        развитие различных форм деятельности в
+                                        значительной степени обуславливает
+                                        создание системы обучения кадров,
+                                        соответствует насущным потребностям.
+                                        Повседневная практика показывает, что
+                                        укрепление и развитие!!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center mbmb">
+                    <button
+                        class="but w-[30%] h-[50px] font-bold text-xl text-white rounded-3xl bg-orange-500 ">Попробовать</button>
+                </div>
+            </section>
+
+            <section class="w-[90%] m-auto karobka acardion">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Насколько полной получается семантика?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Почему не нужно чистить запросы?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Возможна ли оплата для юридических лиц?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Почему класстеризатор не распределяет сразу по нескольким страницам?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </section>
+
+            <section class="karobka m-auto w-[90%] flex items-center justify-between gap-[50px] ">
+                <div class="order">
+                    <div class="bg-slate-50 w-[100%] p-[20px] flex items-start rounded-[20px] gap-3 bott">
+                        <img
+                            class="bg-red-600 w-5 h-6 rounded-[0_12px_0_0] p-1"
+                            src="../img/shape (4).svg" alt>
+                            <span>
+                                <h2 class="text-black font-bold text-2xl hhh">Приведи друга</h2>
+                                <p class="text-black font-normal text-[16px]">Отправьте ему ссылку или промокод</p>
+                            </span>
+                    </div>
+                    <div class="bg-slate-50 w-[100%] p-[20px] flex items-start rounded-[20px] gap-3 bott">
+                        <img
+                            class="bg-red-600 w-5 h-6 rounded-[0_12px_0_0] p-1"
+                            src="../img/Vector (2).svg" alt>
+                            <span>
+                                <h2 class="text-black font-bold text-2xl hhh">Приведи друга</h2>
+                                <p class="text-black font-normal text-[16px]">Отправьте ему ссылку или промокод</p>
+                            </span>
+                    </div>
+                    <div class="bg-slate-50 w-[100%] p-[20px] flex items-start rounded-[20px] gap-3 bott">
+                        <img
+                            class="bg-red-600 w-5 h-6 rounded-[0_12px_0_0] p-1"
+                            src="../img/Union.svg" alt>
+                            <span>
+                                <h2 class="text-black font-bold text-2xl hhh">Приведи друга</h2>
+                                <p class="text-black font-normal text-[16px]">Отправьте ему ссылку или промокод</p>
+                            </span>
+
+                    </div>
+                </div>
+                <div class="">
+                    <img src="../img/Group 83.png" alt="">
+                </div>
+            </section>
+
+            <footer class="bg-[#07040C] pt-[70px] pb-[75px] fot">
+               <div class="karobka w-[90%] m-auto">
+                <ul class="ul-fot grid grid-cols-4 gap-[30px]">
+                    <li class="flex items-start justify-start flex-col li-fot">
+                        <a  href="./index.html">
+                            <img class="image" src="../img/Group 41.svg" alt="">
+                        </a>
+                        <p class="text-[#CACBD7] font-normal text-[16px]">Турбо Ядро © [2022]. Все права защищены</p>
+                    </li>
+                    <li class="flex items-start justify-start flex-col li-fot">
+                        <a class="text-[#CACBD7] font-normal text-[16px] li-fot" href="#">Дни работы поддержки</a>
+                        <a class="text-[#CACBD7] font-normal text-[16px] li-fot" href="#">ПН-ВС. Каждый день</a>
+                        <a class="text-[#CACBD7] font-normal text-[16px] li-fot" href="#">7:00-20:00 по Москве</a>
+                    </li>
+                    <li class="flex items-start justify-start flex-col li-fot">
+                        <a class="text-[#CACBD7] font-normal text-[16px] li-fot" href="#">Контакты</a>
+                        <a class="text-[#CACBD7] font-normal text-[16px] li-fot" href="mailto:help@turbo-yadro.ru">help@turbo-yadro.ru</a>
+                        <a class="text-[#CACBD7] font-normal text-[16px] li-fot" href="tel:+7-960-996-95-76">+7-960-996-95-76</a>
+                    </li>
+                    <li class="flex items-start justify-start flex-col li-fot">
+                        <a class="text-[#CACBD7] font-normal text-[16px] li-fot" href="#">Пользовательское соглашение</a>
+                        <a class="text-[#CACBD7] font-normal text-[16px] li-fot" href="#">Политика оплаты и возврата</a>
+                        <a class="text-[#CACBD7] font-normal text-[16px] li-fot" href="#">Политика использования Cookie</a>
+                    </li>
+                   </ul>
+               </div>
+            </footer>
+        </main>
+
+        <!-- Swiper JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+    var swiper = new Swiper(".mySwiper", {
+        autoplay:{
+            delay:2500
+        },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 1.5,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 2,
+          spaceBetween: 50,
+        },
+      },
+    });
+  </script>
+    </body>
+</html>
