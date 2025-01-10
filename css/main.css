@@ -25,6 +25,17 @@ button:hover{
     cursor: pointer;
 }
 
+.mm{
+    background: transparent;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.mm:hover{
+    background: blueviolet;
+    color: #fff;
+}
+
 /* container */
 @media (min-width:1200px) {
     .karobka{
